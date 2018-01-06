@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_dash_board_quick_height">380dp</dimen>
+    <dimen name="home_dash_board_quick_item_padding_top">@dimen/fhd_12dp</dimen>
+    <dimen name="home_dash_board_quick_item_icon_width">@dimen/fhd_24dp</dimen>
+
+    <dimen name="home_chart_fragment_segment_height">@dimen/fhd_16dp</dimen>
+
+    <dimen name="home_setting_logo_width">180dp</dimen>
+    <dimen name="home_setting_logo_height">@dimen/fhd_24dp</dimen>
+    <dimen name="home_setting_icon_width">@dimen/fhd_16dp</dimen>
+    <dimen name="home_setting_indicator_space">@dimen/fhd_24dp</dimen>
+    <dimen name="home_setting_divider_space">@dimen/fhd_8dp</dimen>
+    <dimen name="home_setting_brightness_panel_height">@dimen/fhd_32dp</dimen>
+    <dimen name="home_setting_brightness_panel_inner_width">@dimen/fhd_120dp</dimen>
+
+    <dimen name="text_size_small">21sp</dimen>
+    <dimen name="text_size_medium">24sp</dimen>
+    <dimen name="text_size_large">27sp</dimen>
+    <dimen name="text_size_ex_large">36sp</dimen>
+
+    <!--specific 1080p for mdpi    -->
+    <dimen name="fhd_640dp">1920dp</dimen>
+    <dimen name="fhd_360dp">1080dp</dimen>
+    <dimen name="fhd_240dp">720dp</dimen>
+    <dimen name="fhd_180dp">540dp</dimen>
+    <dimen name="fhd_120dp">360dp</dimen>
+    <dimen name="fhd_80dp">240dp</dimen>
+    <dimen name="fhd_72dp">216dp</dimen>
+    <dimen name="fhd_64dp">192dp</dimen>
+    <dimen name="fhd_48dp">144dp</dimen>
+    <dimen name="fhd_36dp">108dp</dimen>
+    <dimen name="fhd_32dp">96dp</dimen>
+    <dimen name="fhd_24dp">72dp</dimen>
+    <dimen name="fhd_16dp">48dp</dimen>
+    <dimen name="fhd_12dp">36dp</dimen>
+    <dimen name="fhd_8dp">24dp</dimen>
+    <dimen name="fhd_4dp">12dp</dimen>
+    <dimen name="fhd_2dp">6dp</dimen>
+    <dimen name="fhd_1dp">3dp</dimen>
+
+    <dimen name="text_confirm_height">72dp</dimen>
+
+</resources>
