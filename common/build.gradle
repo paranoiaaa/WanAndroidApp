@@ -58,6 +58,7 @@ dependencies {
     api "org.jetbrains.kotlinx:kotlinx-coroutines-android:0.21"
     api 'com.jakewharton.retrofit:retrofit2-kotlin-coroutines-experimental-adapter:1.0.0'
     api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
+    api 'com.jaeger.statusbarutil:library:1.4.0'
 }
 repositories {
     mavenCentral()

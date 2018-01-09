@@ -16,6 +16,11 @@ class HomeFragment : BaseFragment() {
     override fun bindLayout(): Int = R.layout.fragment_home
 
     override fun initWidget() {
+
+    }
+
+    override fun setListener() {
+
     }
 
     override fun loadData() {

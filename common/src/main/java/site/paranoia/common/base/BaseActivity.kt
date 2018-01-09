@@ -7,8 +7,11 @@ import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.view.Window
 import android.view.WindowManager
+import com.jaeger.library.StatusBarUtil
 import site.paranoia.common.widget.LoadingDialog
 import pers.victor.ext.ActivityMgr
+import pers.victor.ext.findColor
+import site.paranoia.common.R
 
 
 /**
@@ -27,6 +30,7 @@ abstract class BaseActivity : AppCompatActivity(), View.OnClickListener {
             window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
         }
         setContentView(bindLayout())
+        StatusBarUtil.setColor(this, findColor(R.color.colorPrimary))
         window.setBackgroundDrawable(ColorDrawable(Color.WHITE))
         ActivityMgr.add(this)
         loadingDialog = LoadingDialog(this)
