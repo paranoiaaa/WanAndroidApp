@@ -15,12 +15,13 @@ import pers.victor.ext.showFragment
 import site.paranoia.common.base.TitleBarActivity
 import site.paranoia.wanandroidapp.R
 import site.paranoia.wanandroidapp.fragment.HomeFragment
+import site.paranoia.wanandroidapp.fragment.UserFragment
 
 class MainActivity : TitleBarActivity() ,NavigationView.OnNavigationItemSelectedListener{
 
     private var titles = listOf("首页" to R.drawable.ic_home_black_24dp,"知识体系" to R.drawable.ic_dashboard_black_24dp)
 
-    private var fragments = listOf(HomeFragment(), HomeFragment())
+    private var fragments = listOf(HomeFragment(), UserFragment())
 
     override fun initData() {
         addFragments(fragments,R.id.fl_main)
